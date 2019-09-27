@@ -1,20 +1,67 @@
+html,body{
+  height: 100%;
+  margin: 0;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
 
 .carousel-inner img {
     width: 100%;
-    height: 300px;
+    height: 100%;
   }
-#demo{
-    width:75%;
-    margin: 0 auto;
+
+
+  .carousel{
+      height:100%;
+  }
+
+  .carousel-inner{
+    width: 100%;
+    height: 100%;
 }
 
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .carousel{
+      height:100%;
+  }
+#demo{
+    height:95%;
+    margin: 0 auto;
+    z-index: 0;
+}
+.topnav {
+    background-color: #333;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    
+    overflow: hidden;
+    height: 5%;
+    z-index:1;
+  }
 
 .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 5%;
     left: 0;
     background: rgba(255,255,255,0.4);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
@@ -27,7 +74,7 @@
         padding: 15px 8px 15px 32px;
         text-decoration: none;
         font-size: 25px;
-        color: #818181;
+        color: white;
         display: block;
         transition: 0.3s;
         margin-right:30px;
@@ -43,54 +90,55 @@
         top: 0;
     }
     .sidebar-icon{
-        color:#818181;
+        color:white;
     }
 
-.close-navbar {
-    padding-bottom:30px;
-    margin-top:30px;
-}
 #menu-btn {
     font-size: 30px;
     cursor: pointer;
-    position: fixed;
+    /* position: fixed; */
     left:100px;
-    top:30px;
-    color:black;
+    top:10px;
+    color:white;
 }
-.wrapper-index{
-    padding: 2%;
-    width:75%;
-    margin-left:13.5%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    background: rgba(255,255,255,0.4);
 
-}
 .wrapper{
     padding: 2%;
     width:75%;
     margin-left:13.5%;
-    background: rgba(255,255,255,0.4);
+    /* background: rgba(255,255,255,0.4); */
     position: absolute;
-    top: 0;
+    top: 5%;
     bottom: 0;
+}
+
+.destination-card{
+    padding: 2%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom:40px;
+    border-radius: 50px;
+
 }
 h1{
     text-align: center;
     font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif !important;
-    color: black !important;
+    color: white !important;
     text-shadow: 4px 4px 3px rgba(0,0,0,0.1) !important; 
     font-size: 80px !important;
     margin-bottom: 50px !important;
 }
-
-
+p{
+    text-indent: 50px;
+    font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif !important;
+    color: white !important;
+    font-size: 30px !important;
+}
+/* 
 .description{
     padding: 2%;
     width:100%;
     height:30%;
     background-color: rgba(255, 255, 255, 0.5);
     margin-bottom:40px;
-}
+} */
