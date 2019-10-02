@@ -32,10 +32,21 @@ html,body{
     background-color: #333;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     /* background-color: rgba(0, 0, 0, 0.7); */
-    
+    padding-top:5px;
     overflow: hidden;
     height: 5%;
     z-index:1;
+  }
+
+  .destination-nav{
+      /* background-color: #333; */
+    background: rgba(0,0,0,0.5);
+
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    height:5%;
+    margin-left:25%;
+    width:50%;
   }
 
 .sidenav {
@@ -64,7 +75,7 @@ html,body{
     }
 
         .sidenav .sidebar-icon:hover {
-            color: black;
+            color: #333;
         }
 
     .sidenav .close-btn {
@@ -74,9 +85,12 @@ html,body{
     .sidebar-icon{
         color:white;
     }
+    .sidebar-icon-active{
+        color:#333;
+    }
 
 #menu-btn {
-    font-size: 25px;
+     font-size: 20px; 
     cursor: pointer;
     /* position: fixed; */
     left:100px;
@@ -140,7 +154,7 @@ html,body{
     padding: 2%;
     width:100%;
     background-color: rgba(0, 0, 0, 0.6);
-    margin-bottom:40px;
+    margin-top:40px;
     border-radius: 50px;
 
 }
@@ -166,3 +180,28 @@ p{
     background-color: rgba(255, 255, 255, 0.5);
     margin-bottom:40px;
 } */
+
+.navbar{
+    margin-left: 25% !important;
+     width: 50% !important;
+     z-index: 1;
+}
+ a{
+     text-decoration: none !important;
+ }
+ a:hover{
+     text-decoration: none !important;
+ }
+
+.destination-command{
+    padding: 0;
+    color: rgba(255,255,255,0.8);
+    padding: 15px 8px 15px 32px;
+    font-size:25px;
+}
+.destination-command:hover{
+    color:#333;
+}
+.destination-command-active{
+    color:#333;
+}
