@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Destinations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+
+
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body style="background-color: #EDEDED;">
+    <div class="topnav">
+        <span id="menu-btn" class="glyphicon glyphicon-menu-hamburger"></span>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <div id="commands">
+            <a href="index.html" data-toggle="tooltip" title="Home" data-placement="bottom"><span
+                    class="glyphicon glyphicon-home sidebar-icon"></span></a>
+            <a href="road-trip-route66.html" data-toggle="tooltip" title="Road" data-placement="bottom"><span
+                    class="glyphicon glyphicon-road sidebar-icon"></span></a>
+            <a href="munte-acasa.html" data-toggle="tooltip" title="Mountain" data-placement="bottom"><span
+                    class="glyphicon glyphicon-tree-conifer sidebar-icon"></span></a>
+            <a href="sea-tahiti.html" data-toggle="tooltip" title="Sea" data-placement="bottom"><span
+                    class="	glyphicon glyphicon-sunglasses sidebar-icon"></span></a>
+            <a href="city-break-rome.html" data-toggle="tooltip" title="City breaks" data-placement="bottom"><span
+                    class="	glyphicon glyphicon-time sidebar-icon"></span></a>
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <div class="wrapper">
+        <div class="contact" id="form">
+            <form>
+                <div class="form-group">
+                    <label>Nume si prenume:</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Adresa de email:</label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Adresa de email:</label>
+                    <input type="email" class="form-control">
+                </div>
+                <label>Gen:</label>
+
+                <div class="custom-control custom-radio" style="display: inline; margin-left: 10%;">
+                    <input type="radio" class="custom-control-input" id="defaultChecked" name="defaultExampleRadios"
+                        checked>
+                    <label class="custom-control-label" for="defaultChecked">Masculin</label>
+                </div>
+
+                <div class="custom-control custom-radio" style="display: inline; margin-left: 10%;">
+                    <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios">
+                    <label class="custom-control-label" for="defaultUnchecked">Feminin</label>
+                </div>
+                <div class="form-group" style="margin-top: 10px;">
+                    <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="6"
+                        placeholder="Introduceti mesajul aici..."></textarea>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultChecked2" checked>
+                    <label class="custom-control-label" for="defaultChecked2">Doresc sa primesc notificari cu referire
+                        la noile destinatii.</label>
+                </div>
+                <input class="btn btn-primary" type="submit" value="Trimite" id="submitForm" onclick="submit()"
+                    style="margin-left: auto; margin-right:auto; display:block; margin-top:10px;">
+            </form>
+        </div>
+
+
+
+
+
+
+        <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
