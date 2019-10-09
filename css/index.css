@@ -152,6 +152,15 @@ html,body{
     top: 5%;
     bottom: 0;
 }
+.contact-wrapper{
+    padding: 2%;
+    width:90%;
+    margin-left:5%;
+    /* background: rgba(255,255,255,0.4); */
+    position: absolute;
+    top: 5%;
+    bottom: 0;
+}
 
 .destination-card{
     padding: 2%;
@@ -168,6 +177,10 @@ h1,h3{
     text-shadow: 4px 4px 3px rgba(0,0,0,0.1) !important; 
     /* font-size: 80px !important; */
     /* margin-bottom: 50px !important; */
+}
+h5{
+    color: white !important;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1) !important; 
 }
 p{
     text-indent: 50px;
@@ -206,8 +219,8 @@ p{
     background-color: white;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     padding:4%;
-    width:60%;
-    margin-left: 20%;
+    /* width:60%;
+    margin-left: 20%; */
 
 }
 
@@ -237,3 +250,18 @@ button{
     height: 400px;
     background-color: grey;
   }
+
+
+  .map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
