@@ -38,20 +38,32 @@ $(document).ready(function(){
 //       }
 // }
 
-  // Get the modal
-var modal = document.getElementById("myModal");
+//   // Get the modal
+// var modal = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("img1");
-var modalImg = document.getElementById("img01");
-// var captionText = document.getElementById("caption");
-img.onclick = function(){
+// // Get the image and insert it inside the modal - use its "alt" text as a caption
+// var img = document.getElementById("img1");
+// var modalImg = document.getElementById("img01");
+// // var captionText = document.getElementById("caption");
+// img.onclick = function(){
+//   modal.style.display = "block";
+//   modalImg.src = this.src;
+//   // captionText.innerHTML = this.alt;
+// }
+
+function seeImage(modalId, imgId, modalImgId){
+  var modal = document.getElementById(modalId);
+  var img = document.getElementById(imgId);
+  var modalImg = document.getElementById(modalImgId);
   modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+  modalImg.src = img.src;
+
+  var span = document.getElementsByClassName("close")[0];
+
+  span.onclick = function() {
+  modal.style.display = "none";
 }
-
-
+}
 
 
 
