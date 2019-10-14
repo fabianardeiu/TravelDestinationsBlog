@@ -26,51 +26,17 @@ $(document).ready(function(){
     var marker = new google.maps.Marker({position: uluru, map: map});
   };
 
- 
-// function modal(e)
-// {
-//     var img = document.getElementById(e);
-//     var modalImg = document.getElementById("img01");
-//     img.onclick = function(){
-//         this.style.display = "block";
-//         this.src = this.src;
-//         // captionText.innerHTML = this.alt;
-//       }
-// }
-
-//   // Get the modal
-// var modal = document.getElementById("myModal");
-
-// // Get the image and insert it inside the modal - use its "alt" text as a caption
-// var img = document.getElementById("img1");
-// var modalImg = document.getElementById("img01");
-// // var captionText = document.getElementById("caption");
-// img.onclick = function(){
-//   modal.style.display = "block";
-//   modalImg.src = this.src;
-//   // captionText.innerHTML = this.alt;
-// }
-
-function seeImage(modalId, imgId, modalImgId){
+function seeImage(modalId, imgId, modalImgId,closeId){
   var modal = document.getElementById(modalId);
   var img = document.getElementById(imgId);
   var modalImg = document.getElementById(modalImgId);
   modal.style.display = "block";
   modalImg.src = img.src;
 
-  var span = document.getElementsByClassName("close")[0];
+  var span = document.getElementById(closeId);
 
-  span.onclick = function() {
-  modal.style.display = "none";
+    span.onclick = function() {
+    modal.style.display = "none";
+  }
 }
-}
 
-
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
