@@ -28,9 +28,9 @@
           <a href="index.html" data-toggle="tooltip" title="Home" data-placement="bottom"><span
               class="glyphicon glyphicon-home sidebar-icon"></span></a>
           <a href="munte-acasa.html" data-toggle="tooltip" title="Mountain" data-placement="bottom"><span
-              class="glyphicon glyphicon-tree-conifer sidebar-icon-active"></span></a>
-          <a href="sea-tahiti.html" data-toggle="tooltip" title="Sea" data-placement="bottom"><span
-              class="	glyphicon glyphicon-sunglasses sidebar-icon"></span></a>
+              class="glyphicon glyphicon-tree-conifer sidebar-icon"></span></a>
+          <a href="mare-acasa.html" data-toggle="tooltip" title="Sea" data-placement="bottom"><span
+              class="	glyphicon glyphicon-sunglasses sidebar-icon-active"></span></a>
           <a href="city-break-rome.html" data-toggle="tooltip" title="City breaks" data-placement="bottom"><span
               class="	glyphicon glyphicon-time sidebar-icon"></span></a>
               <a href="contact.html" data-toggle="tooltip" title="Contact" data-placement="bottom"><span
@@ -75,10 +75,40 @@
 
           <table style="width:100%;">
                 <tr>
-                    <td><img class="table-img" src="images/mountain/bernina-express/1.jpg"> </td>
-                    <td><img class="table-img" src="images/mountain/bernina-express/2.jpg"> </td>
+                    <td>
+                        <img onclick="seeImage('modal1-bernina-express', 'img1-bernina-express', 'img1-bernina-express-modal','close1-bernina-express')"
+                        id="img1-bernina-express" class="table-img"
+                        src="images/mountain/bernina-express/1.jpg">
+                <div id="modal1-bernina-express" class="modal">
+                        <span id="close1-bernina-express"
+                                class="close">&times;</span>
+                        <img class="modal-content"
+                                id="img1-bernina-express-modal">
+                </div>  
+                    </td>
+                    <td>
+                        <img onclick="seeImage('modal2-bernina-express', 'img2-bernina-express', 'img2-bernina-express-modal','close2-bernina-express')"
+                        id="img2-bernina-express" class="table-img"
+                        src="images/mountain/bernina-express/2.jpg">
+                <div id="modal2-bernina-express" class="modal">
+                        <span id="close2-bernina-express"
+                                class="close">&times;</span>
+                        <img class="modal-content"
+                                id="img2-bernina-express-modal">
+                </div>  
+                    </td>
                     <!-- <td><img class="table-img" src="images/mountain/bernina-express/4.jpg"> </td>   -->
-                    <td><img class="table-img" src="images/mountain/bernina-express/5.jpg"> </td>
+                    <td>
+                        <img onclick="seeImage('modal5-bernina-express', 'img5-bernina-express', 'img5-bernina-express-modal','close5-bernina-express')"
+                        id="img5-bernina-express" class="table-img"
+                        src="images/mountain/bernina-express/5.jpg">
+                <div id="modal5-bernina-express" class="modal">
+                        <span id="close5-bernina-express"
+                                class="close">&times;</span>
+                        <img class="modal-content"
+                                id="img5-bernina-express-modal">
+                </div>    
+                    </td>
 
                 </tr>
                
@@ -96,9 +126,39 @@
               
               <table style="width:100%;">
                 <tr>
-                    <td><img class="table-img" src="images/mountain/funpark-zermatt/1.jpg"> </td>
-                    <td><img class="table-img" src="images/mountain/funpark-zermatt/2.jpg"> </td>
-                    <td><img class="table-img" src="images/mountain/funpark-zermatt/3.jpg"> </td>  
+                    <td>
+                      <img onclick="seeImage('modal1-funpark-zermatt', 'img1-funpark-zermatt', 'img1-funpark-zermatt-modal','close1-funpark-zermatt')"
+                            id="img1-funpark-zermatt" class="table-img"
+                            src="images/mountain/funpark-zermatt/1.jpg">
+                    <div id="modal1-funpark-zermatt" class="modal">
+                            <span id="close1-funpark-zermatt"
+                                    class="close">&times;</span>
+                            <img class="modal-content"
+                                    id="img1-funpark-zermatt-modal">
+                    </div>
+                    </td>
+                    <td>
+                        <img onclick="seeImage('modal2-funpark-zermatt', 'img2-funpark-zermatt', 'img2-funpark-zermatt-modal','close2-funpark-zermatt')"
+                        id="img2-funpark-zermatt" class="table-img"
+                        src="images/mountain/funpark-zermatt/2.jpg">
+                <div id="modal2-funpark-zermatt" class="modal">
+                        <span id="close2-funpark-zermatt"
+                                class="close">&times;</span>
+                        <img class="modal-content"
+                                id="img2-funpark-zermatt-modal">
+                </div>  
+                    </td>
+                    <td>
+                        <img onclick="seeImage('modal3-funpark-zermatt', 'img3-funpark-zermatt', 'img3-funpark-zermatt-modal','close3-funpark-zermatt')"
+                        id="img3-funpark-zermatt" class="table-img"
+                        src="images/mountain/funpark-zermatt/3.jpg">
+                <div id="modal3-funpark-zermatt" class="modal">
+                        <span id="close3-funpark-zermatt"
+                                class="close">&times;</span>
+                        <img class="modal-content"
+                                id="img3-funpark-zermatt-modal">
+                </div>  
+                    </td>  
                     <!-- <td><img class="table-img" src="images/mountain/funpark-zermatt/4.jpg"> </td>   -->
 
                 </tr>
@@ -119,11 +179,41 @@
               
                   <table style="width:100%;">
                     <tr>
-                        <td><img class="table-img" src="images/mountain/parapanta-la-interlaken/1.jpg"> </td>
+                        <td>
+                          <img onclick="seeImage('modal1-interlaken', 'img1-interlaken', 'img1-interlaken-modal','close1-interlaken')"
+                          id="img1-interlaken" class="table-img"
+                          src="images/mountain/parapanta-la-interlaken/1.jpg">
+                  <div id="modal1-interlaken" class="modal">
+                          <span id="close1-interlaken"
+                                  class="close">&times;</span>
+                          <img class="modal-content"
+                                  id="img1-interlaken-modal">
+                  </div>
+                         </td>
                         <!-- <td><img class="table-img" src="images/mountain/parapanta-la-interlaken/2.jpg"> </td> -->
-                        <td><img class="table-img" src="images/mountain/parapanta-la-interlaken/3.jpg"> </td>
+                        <td>
+                            <img onclick="seeImage('modal3-interlaken', 'img3-interlaken', 'img3-interlaken-modal','close3-interlaken')"
+                            id="img3-interlaken" class="table-img"
+                            src="images/mountain/parapanta-la-interlaken/3.jpg">
+                    <div id="modal3-interlaken" class="modal">
+                            <span id="close3-interlaken"
+                                    class="close">&times;</span>
+                            <img class="modal-content"
+                                    id="img3-interlaken-modal">
+                    </div>  
+                        </td>
                         <!-- <td><img class="table-img" src="images/mountain/parapanta-la-interlaken/4.jpg"> </td>   -->
-                        <td><img class="table-img" src="images/mountain/parapanta-la-interlaken/5.jpg"> </td>  
+                        <td>
+                            <img onclick="seeImage('modal5-interlaken', 'img5-interlaken', 'img5-interlaken-modal','close5-interlaken')"
+                            id="img5-interlaken" class="table-img"
+                            src="images/mountain/parapanta-la-interlaken/5.jpg">
+                    <div id="modal5-interlaken" class="modal">
+                            <span id="close5-interlaken"
+                                    class="close">&times;</span>
+                            <img class="modal-content"
+                                    id="img5-interlaken-modal">
+                    </div>
+                        </td>  
 
                     </tr>
                    
@@ -142,9 +232,39 @@
               
                     <table style="width:100%;">
                       <tr>
-                          <td><img class="table-img" src="images/mountain/st-moritz/1.jpg"> </td>
-                          <td><img class="table-img" src="images/mountain/st-moritz/2.jpg"> </td>
-                          <td><img class="table-img" src="images/mountain/st-moritz/3.jpg"> </td>
+                          <td>
+                            <img onclick="seeImage('modal1-st-moritz', 'img1-st-moritz', 'img1-st-moritz-modal','close1-st-moritz')"
+                            id="img1-st-moritz" class="table-img"
+                            src="images/mountain/st-moritz/1.jpg">
+                    <div id="modal1-st-moritz" class="modal">
+                            <span id="close1-st-moritz"
+                                    class="close">&times;</span>
+                            <img class="modal-content"
+                                    id="img1-st-moritz-modal">
+                    </div>
+                          </td>
+                          <td>
+                              <img onclick="seeImage('modal2-st-moritz', 'img2-st-moritz', 'img2-st-moritz-modal','close2-st-moritz')"
+                              id="img2-st-moritz" class="table-img"
+                              src="images/mountain/st-moritz/2.jpg">
+                      <div id="modal2-st-moritz" class="modal">
+                              <span id="close2-st-moritz"
+                                      class="close">&times;</span>
+                              <img class="modal-content"
+                                      id="img2-st-moritz-modal">
+                      </div>  
+                          </td>
+                          <td>
+                              <img onclick="seeImage('modal3-st-moritz', 'img3-st-moritz', 'img3-st-moritz-modal','close3-st-moritz')"
+                              id="img3-st-moritz" class="table-img"
+                              src="images/mountain/st-moritz/3.jpg">
+                      <div id="modal3-st-moritz" class="modal">
+                              <span id="close3-st-moritz"
+                                      class="close">&times;</span>
+                              <img class="modal-content"
+                                      id="img3-st-moritz-modal">
+                      </div>
+                          </td>
                           <!-- <td><img class="table-img" src="images/mountain/st-moritz/4.jpg"> </td>   -->
                       </tr>
                 </div>
