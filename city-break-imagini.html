@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Destinations</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="~/lib/jquery/dist/jquery.js"></script>
+
+
+  <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body style="background-color: #EDEDED;">
+  <div class="topnav">
+    <span id="menu-btn" class="glyphicon glyphicon-menu-hamburger"></span>
+  </div>
+  <div id="mySidenav" class="sidenav">
+    <div id="commands">
+      <a href="index.html" data-toggle="tooltip" title="Home" data-placement="bottom"><span
+          class="glyphicon glyphicon-home sidebar-icon"></span></a>
+      <a href="mare-acasa.html" data-toggle="tooltip" title="Mountain" data-placement="bottom"><span
+          class="glyphicon glyphicon-tree-conifer sidebar-icon"></span></a>
+      <a href="mare-acasa.html" data-toggle="tooltip" title="city-break" data-placement="bottom"><span
+          class="	glyphicon glyphicon-sunglasses sidebar-icon"></span></a>
+      <a href="city-break-acasa.html" data-toggle="tooltip" title="City breaks" data-placement="bottom"><span
+          class="	glyphicon glyphicon-time sidebar-icon-active"></span></a>
+          <a href="contact.html" data-toggle="tooltip" title="Contact" data-placement="bottom"><span
+            class="	glyphicon glyphicon-question-sign sidebar-icon"></span></a>
+    </div>
+  </div>
+
+
+
+  </div>
+
+  <div class="wrapper">
+
+        <div class="destination-navbar" >
+                <nav class="navbar" style="background-color: #333 !important">
+                    <a class="nav-link"  href="city-break-acasa.html">Acasa</a>
+                    <a class="nav-link" style="color: white;"  href="city-break-imagini.html">Imagini</a>
+                    <a class="nav-link"  href="city-break-info-utile.html">Informatii utile</a>
+                    <a class="nav-link"  href="city-break-de-facut.html">De facut</a>
+                    <a class="nav-link" href="city-break-hoteluri.html">Hoteluri</a>
+                  </nav>
+            </div>
+
+    <div class="destination-content-img">
+      <table style="width:100%;">
+        <tr>
+          <td>
+            <img onclick="seeImage('modal1', 'img1', 'img1-modal','close1')" id="img1" class="table-img" src="images/city-break/1.jpg">
+            <div id="modal1" class="modal">
+              <span id="close1" class="close">&times;</span>
+              <img class="modal-content" id="img1-modal">
+            </div>
+          </td>
+          <td>
+            <img onclick="seeImage('modal2', 'img2', 'img2-modal','close2')" id="img2" class="table-img" src="images/city-break/2.jpg">
+             <div id="modal2" class="modal">
+                <span id="close2" class="close">&times;</span>
+                <img class="modal-content" id="img2-modal">
+              </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal3', 'img3', 'img3-modal','close3')" id="img3" class="table-img" src="images/city-break/3.jpg">
+              <div id="modal3" class="modal">
+                 <span id="close3" class="close">&times;</span>
+                 <img class="modal-content" id="img3-modal">
+               </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <img onclick="seeImage('modal4', 'img4', 'img4-modal','close4')" id="img4" class="table-img" src="images/city-break/4.jpg">
+              <div id="modal4" class="modal">
+                 <span id="close4" class="close">&times;</span>
+                 <img class="modal-content" id="img4-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal5', 'img5', 'img5-modal','close5')" id="img5" class="table-img" src="images/city-break/5.jpg">
+              <div id="modal5" class="modal">
+                 <span id="close5" class="close">&times;</span>
+                 <img class="modal-content" id="img5-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal6', 'img6', 'img6-modal','close6')" id="img6" class="table-img" src="images/city-break/6.jpg">
+              <div id="modal6" class="modal">
+                 <span id="close6" class="close">&times;</span>
+                 <img class="modal-content" id="img6-modal">
+               </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <img onclick="seeImage('modal7', 'img7', 'img7-modal','close7')" id="img7" class="table-img" src="images/city-break/7.jpg">
+              <div id="modal7" class="modal">
+                 <span id="close7" class="close">&times;</span>
+                 <img class="modal-content" id="img7-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal8', 'img8', 'img8-modal','close8')" id="img8" class="table-img" src="images/city-break/8.jpg">
+              <div id="modal8" class="modal">
+                 <span id="close8" class="close">&times;</span>
+                 <img class="modal-content" id="img8-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal9', 'img9', 'img9-modal','close9')" id="img9" class="table-img" src="images/city-break/9.jpg">
+              <div id="modal9" class="modal">
+                 <span id="close9" class="close">&times;</span>
+                 <img class="modal-content" id="img9-modal">
+               </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <img onclick="seeImage('modal10', 'img10', 'img10-modal','close10')" id="img10" class="table-img" src="images/city-break/10.jpg">
+              <div id="modal10" class="modal">
+                 <span id="close10" class="close">&times;</span>
+                 <img class="modal-content" id="img10-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal11', 'img11', 'img11-modal','close11')" id="img11" class="table-img" src="images/city-break/11.jpg">
+              <div id="modal11" class="modal">
+                 <span id="close11" class="close">&times;</span>
+                 <img class="modal-content" id="img11-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal12', 'img12', 'img12-modal','close12')" id="img12" class="table-img" src="images/city-break/12.jpg">
+              <div id="modal12" class="modal">
+                 <span id="close12" class="close">&times;</span>
+                 <img class="modal-content" id="img12-modal">
+               </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <img onclick="seeImage('modal13', 'img13', 'img13-modal','close13')" id="img13" class="table-img" src="images/city-break/13.jpg">
+              <div id="modal13" class="modal">
+                 <span id="close13" class="close">&times;</span>
+                 <img class="modal-content" id="img13-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal14', 'img14', 'img14-modal','close14')" id="img14" class="table-img" src="images/city-break/14.jpg">
+              <div id="modal14" class="modal">
+                 <span id="close14" class="close">&times;</span>
+                 <img class="modal-content" id="img14-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal15', 'img15', 'img15-modal','close15')" id="img15" class="table-img" src="images/city-break/15.jpg">
+              <div id="modal15" class="modal">
+                 <span id="close15" class="close">&times;</span>
+                 <img class="modal-content" id="img15-modal">
+               </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <img onclick="seeImage('modal16', 'img16', 'img16-modal','close16')" id="img16" class="table-img" src="images/city-break/16.jpg">
+              <div id="modal16" class="modal">
+                 <span id="close16" class="close">&times;</span>
+                 <img class="modal-content" id="img16-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal17', 'img17', 'img17-modal','close17')" id="img17" class="table-img" src="images/city-break/17.jpg">
+              <div id="modal17" class="modal">
+                 <span id="close17" class="close">&times;</span>
+                 <img class="modal-content" id="img17-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal18', 'img18', 'img18-modal','close18')" id="img18" class="table-img" src="images/city-break/18.jpg">
+              <div id="modal18" class="modal">
+                 <span id="close18" class="close">&times;</span>
+                 <img class="modal-content" id="img18-modal">
+               </div>
+          </td>
+        </tr>
+        <!-- <tr>
+          <td>
+              <img onclick="seeImage('modal19', 'img19', 'img19-modal','close19')" id="img19" class="table-img" src="images/mountain/19.jpg">
+              <div id="modal19" class="modal">
+                 <span id="close19" class="close">&times;</span>
+                 <img class="modal-content" id="img19-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal20', 'img20', 'img20-modal','close20')" id="img20" class="table-img" src="images/mountain/20.jpg">
+              <div id="modal20" class="modal">
+                 <span id="close20" class="close">&times;</span>
+                 <img class="modal-content" id="img20-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal21', 'img21', 'img21-modal','close21')" id="img21" class="table-img" src="images/mountain/21.jpg">
+              <div id="modal21" class="modal">
+                 <span id="close21" class="close">&times;</span>
+                 <img class="modal-content" id="img21-modal">
+               </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <img onclick="seeImage('modal22', 'img22', 'img22-modal','close22')" id="img22" class="table-img" src="images/mountain/22.jpg">
+              <div id="modal22" class="modal">
+                 <span id="close22" class="close">&times;</span>
+                 <img class="modal-content" id="img22-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal23', 'img23', 'img23-modal','close23')" id="img23" class="table-img" src="images/mountain/23.jpg">
+              <div id="modal23" class="modal">
+                 <span id="close23" class="close">&times;</span>
+                 <img class="modal-content" id="img23-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal24', 'img24', 'img24-modal','close24')" id="img24" class="table-img" src="images/mountain/24.jpg">
+              <div id="modal24" class="modal">
+                 <span id="close24" class="close">&times;</span>
+                 <img class="modal-content" id="img24-modal">
+               </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <img onclick="seeImage('modal25', 'img25', 'img25-modal','close25')" id="img25" class="table-img" src="images/mountain/25.jpg">
+              <div id="modal25" class="modal">
+                 <span id="close25" class="close">&times;</span>
+                 <img class="modal-content" id="img25-modal">
+               </div>
+          </td>
+          <td>
+              <img onclick="seeImage('modal26', 'img26', 'img26-modal','close26')" id="img26" class="table-img" src="images/mountain/26.jpg">
+              <div id="modal26" class="modal">
+                 <span id="close26" class="close">&times;</span>
+                 <img class="modal-content" id="img26-modal">
+               </div>
+          </td>
+          <td>
+             <img onclick="seeImage('modal27', 'img27', 'img27-modal','close27')" id="img27" class="table-img" src="images/mountain/27.jpg">
+              <div id="modal27" class="modal">
+                 <span id="close27" class="close">&times;</span>
+                 <img class="modal-content" id="img27-modal">
+               </div>
+          </td>
+        </tr> -->
+      </table>
+    </div>
+  </div>
+
+
+
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

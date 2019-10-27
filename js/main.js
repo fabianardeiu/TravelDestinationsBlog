@@ -40,5 +40,11 @@ function seeImage(modalId, imgId, modalImgId,closeId){
   }
 }
 
+function show(inforamtion)
+{
+  var info = document.getElementById(information);
+  info.display = "block";
+}
+
 
 
